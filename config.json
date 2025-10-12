@@ -80,16 +80,6 @@
       "type": "adblock"
     },
     {
-      "name": "Hagezi // Newly registered domains (past 7 days)",
-      "source": "https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/adblock/nrd7.txt",
-      "type": "adblock"
-    },
-    {
-      "name": "Hagezi // Newly registered domains (past 14-8 days)",
-      "source": "https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/adblock/nrd14-8.txt",
-      "type": "adblock"
-    },
-    {
       "name": "Hagezi // Local DNS rebinding attacks",
       "source": "https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/adguard/dns-rebind-protection.txt",
       "type": "adblock"
