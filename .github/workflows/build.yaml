@@ -10,8 +10,8 @@ on:
 
 jobs:
   build:
-    name: Build Blocklist
-    runs-on: ubuntu-latest-arm
+    name: Build and Publish Blocklist
+    runs-on: ubuntu-latest
     timeout-minutes: 30
 
     steps:
