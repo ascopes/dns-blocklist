@@ -52,3 +52,14 @@ jobs:
 
       - name: Deploy site to GitHub Pages
         uses: actions/deploy-pages@v4
+
+      # If the deployment failed due to an internal error (e.g. an outage on GitHub),
+      # then we may get stuck in a state where we are unable to rerun this step. This
+      # happens because we create duplicate artifact uploads and the upload artifact
+      # action mishandles duplicates. The easiest way around this is to just purge the
+      # artifact if we failed so that any rerun can succeed.
+      - name: Remove GitHub Pages artifacts
+        uses: geekyeggo/delete-artifact@v5
+        with:
+          name: github-pages
+          failOnError: false
