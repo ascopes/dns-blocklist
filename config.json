@@ -83,12 +83,31 @@
       "name": "Hagezi // Local DNS rebinding attacks",
       "source": "https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/adguard/dns-rebind-protection.txt",
       "type": "adblock"
+    },
+    {
+      "name": "AdGuard // Smart TV Ad Blocklists",
+      "source": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_7.txt",
+      "type": "adblock"
+    },
+    {
+      "name": "AdGuard // Malware",
+      "source": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_9.txt",
+      "type": "adblock"
+    },
+    {
+      "name": "AdGuard // JavaScript cryptomining shitware",
+      "source": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_8.txt",
+      "type": "adblock"
+    },
+    { 
+      "name": "AdGuard // Stalkerware for Android and iOS",
+      "source": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_31.txt",
+      "type": "adblock"
     }
   ],
   "transformations": [
     "Deduplicate",
     "Compress",
-    "ConvertToAscii",
     "InsertFinalNewLine",
     "RemoveEmptyLines",
     "TrimLines",
