@@ -90,21 +90,6 @@
       "type": "adblock"
     },
     {
-      "name": "Hagezi // Newly registered domains (past 21-15 days)",
-      "source": "https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/adblock/nrd21-15.txt",
-      "type": "adblock"
-    },
-    {
-      "name": "Hagezi // Newly registered domains (past 28-22 days)",
-      "source": "https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/adblock/nrd28-22.txt",
-      "type": "adblock"
-    },
-    {
-      "name": "Hagezi // Newly registered domains (past 35-29 days)",
-      "source": "https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/adblock/nrd35-29.txt",
-      "type": "adblock"
-    },
-    {
       "name": "Hagezi // Local DNS rebinding attacks",
       "source": "https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/adguard/dns-rebind-protection.txt",
       "type": "adblock"
