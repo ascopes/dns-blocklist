@@ -82,6 +82,11 @@
   ],
   "transformations": [
     "Deduplicate",
-    "Compress"
+    "Compress",
+    "ConvertToAscii",
+    "InsertFinalNewLine",
+    "RemoveEmptyLines",
+    "TrimLines",
+    "ValidateAllowIp"
   ]
 }
