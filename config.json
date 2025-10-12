@@ -55,31 +55,6 @@
       "type": "adblock"
     },
     {
-      "name": "Hagezi // Newly Registered Domains (35 days - 29 days)",
-      "source": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/nrd35-29.txt",
-      "type": "adblock"
-    },
-    {
-      "name": "Hagezi // Newly Registered Domains (28 days - 22 days)",
-      "source": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/nrd28-22.txt",
-      "type": "adblock"
-    },
-    {
-      "name": "Hagezi // Newly Registered Domains (28 days - 15 days)",
-      "source": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/nrd21-15.txt",
-      "type": "adblock"
-    },
-    {
-      "name": "Hagezi // Newly Registered Domains (14 days - 8 days)",
-      "source": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/nrd-14-8.txt",
-      "type": "adblock"
-    },
-    {
-      "name": "Hagezi // Newly Registered Domains (7 days - yesterday)",
-      "source": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/nrd-7.txt",
-      "type": "adblock"
-    },
-    {
       "name": "Hegezi // Threat Intelligence Feed",
       "source": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/tif.medium.txt",
       "type": "adblock"
