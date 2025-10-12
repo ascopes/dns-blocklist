@@ -16,6 +16,15 @@ mv config.json{.new,}
 # Compile the lists
 echo "Compiling the lists..."
 mkdir -p out/
-hostlist-compiler --config=config.json \
-    --output=out/blocklist.txt \
-    --verbose
+
+cmd=(
+  hostlist-compiler 
+  --config=config.json
+  --output=out/blocklist.txt
+)
+
+if [[ -v DEBUG ]]; then
+  cmd+=(--verbose)
+fi
+
+"${cmd[@]}"
