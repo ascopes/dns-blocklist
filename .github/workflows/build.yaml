@@ -1,0 +1,35 @@
+name: Build
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    # Run every 6 hours at 43 minutes past the hour.
+    - cron: "43 */6 * * *"
+  workflow_dispatch: {}
+
+jobs:
+  build:
+    name: Build Blocklist
+    runs-on: ubuntu-latest-arm
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v5
+
+      - name: Install Node
+        uses: actions/setup-node@v5
+        with:
+          node-version: latest
+
+      - name: Compile blocklist
+        run: ./build.sh
+
+      - name: Upload blocklist to GitHub as a site
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: out/
+
+      - name: Deploy site to GitHub Pages
+        uses: actions/deploy-pages@v4

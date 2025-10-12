@@ -1,0 +1,112 @@
+{
+  "name": "Aggregated DNS blocklist",
+  "description": "Aggregated and compressed DNS blocklist",
+  "version": "0.0.0-dev",
+  "homepage": "https://github.com/ascopes/dns-blocklist",
+  "sources": [
+    {
+      "name": "EasyList",
+      "url": "https://v.firebog.net/hosts/Easylist.txt",
+      "type": "adblock"
+    },
+    {
+      "name": "Hagezi // AdBlock General",
+      "url": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/pro.txt",
+      "type": "adblock"
+    },
+    {
+      "name": "Hagezi // AdBlock Popup Ads",
+      "url": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/popupads.txt",
+      "type": "adblock"
+    },
+    {
+      "name": "Hagezi // Threat Intelligence Feed",
+      "url": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/tif.txt",
+      "type": "adblock"
+    },
+    {
+      "name": "Hagezi // DoH and VPN proxy bypass (Firefox, Opera, etc)",
+      "url": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/doh-vpn-proxy-bypass.txt",
+      "type": "adblock"
+    },
+    {
+      "name": "Hagezi // Malicious DDNS services",
+      "url": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/dyndns.txt",
+      "type": "adblock"
+    },
+    {
+      "name": "Hagezi // Microsoft Windows and Office 365 Trackers",
+      "url": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/native.winoffice.txt",
+      "type": "adblock"
+    },
+    {
+      "name": "Hagezi // Apple Trackers",
+      "url": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/native.apple.txt",
+      "type": "adblock"
+    },
+    {
+      "name": "Hagezi // Amazon Trackers",
+      "url": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/native.amazon.txt",
+      "type": "adblock"
+    },
+    {
+      "name": "Hagezi // Samsung Trackers",
+      "url": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/native.samsung.txt",
+      "type": "adblock"
+    },
+    {
+      "name": "Hagezi // Newly Registered Domains (35 days - 29 days)",
+      "url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/nrd35-29.txt",
+      "type": "adblock"
+    },
+    {
+      "name": "Hagezi // Newly Registered Domains (28 days - 22 days)",
+      "url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/nrd28-22.txt",
+      "type": "adblock"
+    },
+    {
+      "name": "Hagezi // Newly Registered Domains (28 days - 15 days)",
+      "url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/nrd21-15.txt",
+      "type": "adblock"
+    },
+    {
+      "name": "Hagezi // Newly Registered Domains (14 days - 8 days)",
+      "url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/nrd-14-8.txt",
+      "type": "adblock"
+    },
+    {
+      "name": "Hagezi // Newly Registered Domains (7 days - yesterday)",
+      "url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/nrd-7.txt",
+      "type": "adblock"
+    },
+    {
+      "name": "Hegezi // Threat Intelligence Feed",
+      "url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/tif.medium.txt",
+      "type": "adblock"
+    },
+    {
+      "name": "DeveloperDan // Ads and Tracking, extended",
+      "url": "https://www.github.developerdan.com/hosts/lists/ads-and-tracking-extended.txt",
+      "type": "adblock"
+    },
+    {
+      "name": "Phishing Army // Phishing blocklist",
+      "url": "https://phishing.army/download/phishing_army_blocklist.txt",
+      "type": "adblock"
+    },
+    {
+      "name": "OISD Big List",
+      "url": "https://big.oisd.nl",
+      "type": "adblock"
+    },
+    {
+      "name": "AIO Firebog Green // Malicious, Suspicious, Advertising, Tracking",
+      "url": "https://raw.githubusercontent.com/KnightmareVIIVIIXC/AIO-Firebog-Blocklists/main/lists/aiofireboggreen.txt",
+      "type": "adblock"
+    }
+  ],
+  "transformations": [
+    "Deduplicate",
+    "Compress"
+  ]
+}
