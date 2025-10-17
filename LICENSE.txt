@@ -1,10 +1,6 @@
 MIT License
 
-This license only covers the content of the repository. Generated lists are
-licensed by each section that is mentioned in the license headers of the
-corresponding list.
-
-Repository configuration is Copyright (c) 2025 Ashley Scopes
+Copyright (c) 2025 Ashley Scopes
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -23,3 +19,17 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+---
+
+Note: This license only covers the content of the repository. Generated lists are
+licensed by each section that is mentioned in the license headers of the corresponding 
+list. 
+
+Lists are distributed in a modified format to concatenate them into a single file,
+and to then remove duplicates, normalize patterns, and compact overly computationally
+expensive expressions together.
+
+Please refer to the distributor of each list for the current copy of the list, or a
+copy for any point in time in the past. History is not tracked for this aggregated list
+as it is not feasible to retain previous copies.
