@@ -85,11 +85,6 @@
       "type": "adblock"
     },
     {
-      "name": "AdGuard // Smart TV Ad Blocklists",
-      "source": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_7.txt",
-      "type": "adblock"
-    },
-    {
       "name": "AdGuard // Malware",
       "source": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_9.txt",
       "type": "adblock"
