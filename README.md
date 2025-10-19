@@ -19,7 +19,7 @@ and the output of this pipeline is not covered by the license in this repository
 
 ## Schedule
 
-This rebuilds every 6 hours.
+This rebuilds every 24 hours.
 
 ## Output
 
