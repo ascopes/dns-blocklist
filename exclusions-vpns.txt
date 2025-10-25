@@ -3,4 +3,4 @@
 !!!
 
 ! Opera
-@@||api2.sec-tunnel.com^$important
+||api2.sec-tunnel.com^
