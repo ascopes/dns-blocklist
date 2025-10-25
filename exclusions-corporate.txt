@@ -1,0 +1,8 @@
+!!!
+!!! Exclusions for publicly-hosted corporate services used
+!!! by many companies, such as support chatbots and virtual
+!!! helpdesks.
+!!!
+
+! Needed for support systems.
+@@||liveperson.net^$important
