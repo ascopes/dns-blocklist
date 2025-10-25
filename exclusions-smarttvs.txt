@@ -1,0 +1,15 @@
+!!!
+!!! Exclusions for Smart TVs
+!!!
+
+! UK: Channel 4 needs to unblock ads to work on Smart TVs.
+@@||c4smarttv.2cnt.net^$important
+@@||channel4.com^$important
+@@||fwmrm.net^$important
+
+! UK: Channel 5 needs to unblock ads to work on Smart TVs.
+@@||c5ads.ott.skymedia.co.uk^$important
+@@||ch5.sc.omtrdc.net^$important
+
+! UK: Samsung Ads, seems to impact Smart TVs working properly during setup.
+@@||tvx.adgrx.com^$important

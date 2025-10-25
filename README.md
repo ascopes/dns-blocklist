@@ -17,6 +17,12 @@ with enough memory set up.
 Each block list is subject to the licenses presented in their license header,
 and the output of this pipeline is not covered by the license in this repository.
 
+## Exclusions
+
+I exclude some domains to keep stuff that I or other people use working properly. This includes
+Smart TVs and some commonly used websites that are flagged as false positives. Those
+are listed in the various `exclusions-*.txt` files.
+
 ## Schedule
 
 This rebuilds every 24 hours.
@@ -24,6 +30,13 @@ This rebuilds every 24 hours.
 ## Output
 
 The output is at `https://ascopes.github.io/dns-blocklist/blocklist.txt`.
+
+## Config syntax
+
+I use YAML to encode the config, but during compilation it will be encoded as JSON. YAML is used
+to allow more sensible formatting and comments if I need to add them.
+
+The configuration schema is documented at https://github.com/AdguardTeam/HostlistCompiler.
 
 ## Can you provide this in other formats?
 
