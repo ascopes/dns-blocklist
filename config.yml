@@ -1,0 +1,69 @@
+name: Aggregated DNS blocklist
+description: Aggregated and compressed DNS blocklist
+version: 0.0.0-dev
+homepage: https://github.com/ascopes/dns-blocklist
+sources:
+  - name: EasyList
+    source: https://v.firebog.net/hosts/Easylist.txt
+    type: adblock
+  - name: Hagezi // AdBlock General
+    source: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/pro.txt
+    type: adblock
+  - name: Hagezi // AdBlock Popup Ads
+    source: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/popupads.txt
+    type: adblock
+  - name: Hagezi // Threat Intelligence Feed
+    source: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/tif.txt
+    type: adblock
+  - name: Hagezi // DoH and VPN proxy bypass (Firefox, Opera, etc)
+    source: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/doh-vpn-proxy-bypass.txt
+    type: adblock
+  - name: Hagezi // Malicious DDNS services
+    source: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/dyndns.txt
+    type: adblock
+  - name: Hagezi // Microsoft Windows and Office 365 Trackers
+    source: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/native.winoffice.txt
+    type: adblock
+  - name: Hagezi // Apple Trackers
+    source: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/native.apple.txt
+    type: adblock
+  - name: Hagezi // Amazon Trackers
+    source: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/native.amazon.txt
+    type: adblock
+  - name: Hagezi // Samsung Trackers
+    source: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/native.samsung.txt
+    type: adblock
+  - name: Hagezi // Threat Intelligence Feed
+    source: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/tif.medium.txt
+    type: adblock
+  - name: DeveloperDan // Ads and Tracking, extended
+    source: https://www.github.developerdan.com/hosts/lists/ads-and-tracking-extended.txt
+    type: adblock
+  - name: Phishing Army // Phishing blocklist
+    source: https://phishing.army/download/phishing_army_blocklist.txt
+    type: adblock
+  - name: OISD Big List
+    source: https://big.oisd.nl
+    type: adblock
+  - name: AIO Firebog Green // Malicious, Suspicious, Advertising, Tracking
+    source: https://raw.githubusercontent.com/KnightmareVIIVIIXC/AIO-Firebog-Blocklists/main/lists/aiofireboggreen.txt
+    type: adblock
+  - name: Hagezi // Local DNS rebinding attacks
+    source: https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/adguard/dns-rebind-protection.txt
+    type: adblock
+  - name: AdGuard // Malware
+    source: https://adguardteam.github.io/HostlistsRegistry/assets/filter_9.txt
+    type: adblock
+  - name: AdGuard // JavaScript cryptomining shitware
+    source: https://adguardteam.github.io/HostlistsRegistry/assets/filter_8.txt
+    type: adblock
+  - name: AdGuard // Stalkerware for Android and iOS
+    source: https://adguardteam.github.io/HostlistsRegistry/assets/filter_31.txt
+    type: adblock
+transformations:
+  - Deduplicate
+  - Compress
+  - InsertFinalNewLine
+  - RemoveEmptyLines
+  - TrimLines
+  - ValidateAllowIp

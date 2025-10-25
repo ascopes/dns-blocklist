@@ -6,6 +6,9 @@ set -o nounset
 echo "Ensuring tooling is installed..."
 command -v hostlist-compiler &> /dev/null || npm install -g @adguard/hostlist-compiler
 
+# Translate the YAML config into JSON
+yq . config.yml -o json > config.json
+
 # Set the version number in the config.
 version=$(date +'%y.%m.%d.%H%M%S')
 echo "Configuring version in config to be ${version}..."
