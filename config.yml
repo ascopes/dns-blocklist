@@ -85,6 +85,14 @@ sources:
     source: https://adguardteam.github.io/HostlistsRegistry/assets/filter_31.txt
     type: adblock
 
+  - name: AdGuard // Mobile App Ads
+    source: https://adguardteam.github.io/HostlistsRegistry/assets/filter_53.txt
+    type: adblock
+
+  - name: AdGuard // DNS popups
+    source: https://adguardteam.github.io/HostlistsRegistry/assets/filter_59.txt
+    type: adblock
+
 transformations:
   - Deduplicate
   - Compress
