@@ -3,12 +3,11 @@ description: Aggregated and compressed DNS blocklist
 version: 0.0.0-dev
 homepage: https://github.com/ascopes/dns-blocklist
 
-exclusions_sources:
-  - exclusions-corporate.txt
-  - exclusions-smarttvs.txt
-  - exclusions-vpns.txt
-
 sources:
+  - name: Custom Exclusions
+    source: exclusions.txt
+    type: adblock
+
   - name: EasyList
     source: https://v.firebog.net/hosts/Easylist.txt
     type: adblock

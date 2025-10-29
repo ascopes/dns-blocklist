@@ -1,6 +1,0 @@
-!!!
-!!! Exclusions for VPN and tunnel software.
-!!!
-
-! Opera
-||api2.sec-tunnel.com^
