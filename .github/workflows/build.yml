@@ -60,6 +60,7 @@ jobs:
       # artifact if we failed so that any rerun can succeed.
       - name: Remove GitHub Pages artifacts
         uses: geekyeggo/delete-artifact@v5
+        if: always()
         with:
           name: github-pages
           failOnError: false
