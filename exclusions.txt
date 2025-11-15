@@ -3,7 +3,7 @@
 !!!
 
 ! Needed for support systems/chatbots/virtual IT helpdesks
-@@||liveperson.net^$important
+@@||liveperson.net^
 
 ! UK: Channel 4 needs to unblock ads to work on Smart TVs.
 @@||c4smarttv.2cnt.net^
