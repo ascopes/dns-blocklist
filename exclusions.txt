@@ -3,19 +3,21 @@
 !!!
 
 ! Needed for support systems/chatbots/virtual IT helpdesks
-@@||liveperson.net^
+@@||liveperson.net^$important
 
 ! UK: Channel 4 needs to unblock ads to work on Smart TVs.
-@@||c4smarttv.2cnt.net^
-@@||channel4.com^
-@@||fwmrm.net^
+@@||c4smarttv.2cnt.net^$important
+@@||channel4.com^$important
+@@||fwmrm.net^$important
 
 ! UK: Channel 5 needs to unblock ads to work on Smart TVs.
-@@||c5ads.ott.skymedia.co.uk^
-@@||ch5.sc.omtrdc.net^
+@@||c5ads.ott.skymedia.co.uk^$important
+@@||ch5.sc.omtrdc.net^$important
+@@||unagi-eu.amazon.com^$important
+@@||adsrvr.org^$important
 
 ! UK: Samsung Ads, seems to impact Smart TVs working properly during setup.
-@@||tvx.adgrx.com^
+@@||tvx.adgrx.com^$important
 
 ! Opera VPN
-@@||api2.sec-tunnel.com^
+@@||api2.sec-tunnel.com^$important
