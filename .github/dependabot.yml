@@ -5,8 +5,9 @@ updates:
     open-pull-requests-limit: 99
     rebase-strategy: auto
     schedule:
-      interval: daily
-      time: "17:00"
+      interval: weekly
+      day: saturday
+      time: "8:00"
       timezone: Europe/London
     target-branch: main
     assignees:
