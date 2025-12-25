@@ -9,8 +9,8 @@ command -v hostlist-compiler &> /dev/null || npm install -g @adguard/hostlist-co
 # Translate the YAML config into JSON
 yq . config.yml -o json > config.json
 
-# Set the version number in the config.
-version=$(date +'%y.%m.%d.%H%M%S')
+# Set the version number in the config from the date and commit digest.
+version="$(date +'%y.%m.%d.%H%M%S')+$(git rev-parse --short HEAD)"
 echo "Configuring version in config to be ${version}..."
 jq '. * {version: $version}' config.json --arg version "${version}" > config.json.new
 mv -v config.json{.new,}
