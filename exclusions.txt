@@ -21,3 +21,8 @@
 
 ! Opera VPN
 @@||api2.sec-tunnel.com^$important
+
+! UKTV Play (U)
+@@||tag.aticdn.net
+@@||tags.tiqcdn.com
+@@||metrics.brightcove.com
