@@ -32,7 +32,7 @@ sources:
     source: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/dyndns.txt
     type: adblock
 
-  - name: Hagezi // Microsoft Windows and Office 365 Trackers
+  - name: Hagezi // Microslop Windows and Office 365 Trackers
     source: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/native.winoffice.txt
     type: adblock
 
@@ -46,10 +46,6 @@ sources:
 
   - name: Hagezi // Samsung Trackers
     source: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/native.samsung.txt
-    type: adblock
-
-  - name: Hagezi // Threat Intelligence Feed
-    source: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/tif.medium.txt
     type: adblock
 
   - name: DeveloperDan // Ads and Tracking, extended
