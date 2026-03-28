@@ -92,6 +92,26 @@ sources:
     source: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/dga7.txt
     type: adblock
 
+  - name: Jarelllama // Scams
+    source: https://raw.githubusercontent.com/jarelllama/Scam-Blocklist/main/lists/wildcard_domains/scams.txt
+    type: adblock
+
+  - name: Malware Filter // Phishing
+    source: https://malware-filter.gitlab.io/malware-filter/phishing-filter-hosts.txt
+    type: hosts
+
+  - name: RPiList // Malware
+    source: https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/malware
+    type: adblock
+
+  - name: RPiList // Phishing
+    source: https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Phishing-Angriffe
+    type: adblock
+
+  - name: Prigent // Malware
+    source: https://v.firebog.net/hosts/Prigent-Malware.txt
+    type: adblock
+
 transformations:
   - Deduplicate
   - Compress
