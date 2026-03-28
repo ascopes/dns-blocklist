@@ -26,7 +26,7 @@ jobs:
 
   build:
     name: Build and Publish Blocklist
-    runs-on: ubuntu-latest-arm  # Slightly faster than x86
+    runs-on: ubuntu-24.04-arm  # Slightly faster than x86
     timeout-minutes: 120
 
     concurrency:
