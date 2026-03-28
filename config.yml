@@ -88,6 +88,10 @@ sources:
     source: https://adguardteam.github.io/HostlistsRegistry/assets/filter_59.txt
     type: adblock
 
+  - name: Hagezi // High-entropy newly registered domains
+    source: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/dga7.txt
+    type: adblock
+
 transformations:
   - Deduplicate
   - Compress
