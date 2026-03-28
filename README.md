@@ -1,3 +1,6 @@
+![Status](https://github.com/ascopes/dns-blocklist/actions/workflows/build.yml/badge.svg)
+![Entry Count](https://ascopes.github.io/dns-blocklist/entry-count-badge.svg)
+
 # DNS blocklists
 
 A pipeline to compile and deduplicate any DNS blocklists I use with
