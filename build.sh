@@ -21,3 +21,8 @@ mkdir -p out/
 cmd=(hostlist-compiler --config=config.json --output=out/blocklist.txt)
 [[ -v DEBUG ]] && cmd+=(--verbose)
 "${cmd[@]}"
+
+# Count the records and make a badge
+echo "Generating badges..."
+entry_count=$(grep -vE "^(#.*| *)$" out/blocklist.txt | wc -l)
+curl -sSLo out/entry-count-badge.svg "https://img.shields.io/badge/${entry_count}-blue?label=Compressed%20Entries"
