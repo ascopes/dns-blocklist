@@ -109,9 +109,11 @@ sources:
     type: adblock
 
 transformations:
+  - RemoveComments
+  - RemoveEmptyLines
+  - TrimLines
+  - RemoveModifiers
   - Deduplicate
   - Compress
   - InsertFinalNewLine
-  - RemoveEmptyLines
-  - TrimLines
   - ValidateAllowIp
