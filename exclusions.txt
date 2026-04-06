@@ -5,24 +5,37 @@
 ! Needed for support systems/chatbots/virtual IT helpdesks
 @@||liveperson.net^$important
 
-! UK: Channel 4 needs to unblock ads to work on Smart TVs.
+! UK Channel 4 needs to unblock ads to work on Smart TVs.
 @@||c4smarttv.2cnt.net^$important
 @@||channel4.com^$important
 @@||fwmrm.net^$important
 
-! UK: Channel 5 needs to unblock ads to work on Smart TVs.
+! UK Channel 5 needs to unblock ads to work on Smart TVs.
 @@||c5ads.ott.skymedia.co.uk^$important
 @@||ch5.sc.omtrdc.net^$important
 @@||unagi-eu.amazon.com^$important
 @@||adsrvr.org^$important
 
-! UK: Samsung Ads, seems to impact Smart TVs working properly during setup.
+! Samsung Ads, seems to impact Smart TVs working properly during setup.
 @@||tvx.adgrx.com^$important
 
 ! Opera VPN
 @@||api2.sec-tunnel.com^$important
 
-! UKTV Play (U)
-@@||tag.aticdn.net
-@@||tags.tiqcdn.com
-@@||metrics.brightcove.com
+! UKTV Play
+@@||tag.aticdn.net^$important
+@@||tags.tiqcdn.com^$important
+@@||metrics.brightcove.com^$important
+
+! Don't block various bank domains, it can cause
+! apps and emails to misbehave in unexpected ways.
+@@||natwest.com^$important
+@@||rbs.co.uk^$important
+@@||rbos.co.uk^$important
+@@||barclays.com^$important
+@@||hsbc.com^$important
+@@||hsbc.co.uk^$important
+@@||lloydsbank.com^$important
+@@||tsb.co.uk^$important
+@@||santander.com^$important
+@@||nationwide.co.uk^$important
