@@ -1,6 +1,6 @@
 name: Aggregated DNS blocklist
 description: Aggregated and compressed DNS blocklist
-version: latest
+version: 0.0.0
 homepage: https://github.com/ascopes/dns-blocklist
 
 sources:
