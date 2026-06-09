@@ -39,3 +39,10 @@
 @@||tsb.co.uk^$important
 @@||santander.com^$important
 @@||nationwide.co.uk^$important
+
+! Don't block core stuff for Amazon Prime video
+@@||api.eu-west-1.aiv-delivery.net^$important
+@@||api.eu-west-2.aiv-delivery.net^$important
+
+! Don't block Samsung Smart features as they break Smart TVs and make them lag
+@@||lcprd1.samsungcloudsolution.net^$important
