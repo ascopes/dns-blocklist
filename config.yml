@@ -57,7 +57,9 @@ sources:
     type: adblock
 
   - name: OISD Big List
-    source: https://big.oisd.nl
+    #source: https://big.oisd.nl
+    # Use GitHub as a mirror while their site is down
+    source: https://raw.githubusercontent.com/sjhgvr/oisd/refs/heads/main/oisd_big.txt
     type: adblock
 
   - name: AIO Firebog Green // Malicious, Suspicious, Advertising, Tracking
