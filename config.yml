@@ -57,6 +57,8 @@ sources:
     type: adblock
 
   - name: OISD Big List
+    #source: https://big.oisd.nl
+    # Use GitHub as a mirror while their site is down
     source: https://raw.githubusercontent.com/sjhgvr/oisd/refs/heads/main/oisd_big.txt
     type: adblock
 
@@ -107,30 +109,6 @@ sources:
   - name: Prigent // Malware
     source: https://v.firebog.net/hosts/Prigent-Malware.txt
     type: adblock
-
-  - name: URLHaus // Malware
-    source: https://urlhaus.abuse.ch/downloads/hostfile/
-    type: hosts
-
-  - name: Blocklist Project // Ransomware
-    source: https://blocklistproject.github.io/Lists/alt-version/ransomware-nl.txt
-    type: hosts
-
-  - name: Blocklist Project // Scams
-    source: https://blocklistproject.github.io/Lists/alt-version/scam-nl.txt
-    type: hosts
-
-  - name: Blackbook // Malware
-    source: https://raw.githubusercontent.com/stamparm/blackbook/master/blackbook.txt
-    type: hosts
-
-  - name: Global AntiScam
-    source: https://raw.githubusercontent.com/elliotwutingfeng/GlobalAntiScamOrg-blocklist/main/global-anti-scam-org-scam-urls-pihole.txt
-    type: hosts
-
-  - name: Threatfox Indicators of Compromise
-    source: https://threatfox.abuse.ch/downloads/hostfile
-    type: hosts
 
 transformations:
   - RemoveComments
