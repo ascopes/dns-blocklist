@@ -46,3 +46,8 @@
 
 ! Don't block Samsung Smart features as they break Smart TVs and make them lag
 @@||lcprd1.samsungcloudsolution.net^$important
+
+! East Anglian Daily Times and associated companies use a predatory script to force you to
+! disable adblocking. This allows that component through
+! to avoid the website kicking you out.
+@@||html-load.com^$important
