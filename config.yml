@@ -13,39 +13,71 @@ sources:
     type: adblock
 
   - name: Hagezi // AdBlock General
-    source: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/pro.txt
+    source: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/pro.txt
     type: adblock
 
   - name: Hagezi // AdBlock Popup Ads
-    source: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/popupads.txt
+    source: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/popupads.txt
     type: adblock
 
   - name: Hagezi // Threat Intelligence Feed
-    source: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/tif.txt
+    source: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/tif.txt
     type: adblock
 
   - name: Hagezi // DoH and VPN proxy bypass (Firefox, Opera, etc)
-    source: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/doh-vpn-proxy-bypass.txt
+    source: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/doh-vpn-proxy-bypass.txt
     type: adblock
 
   - name: Hagezi // Malicious DDNS services
-    source: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/dyndns.txt
+    source: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/dyndns.txt
     type: adblock
 
-  - name: Hagezi // Microslop Windows and Office 365 Trackers
-    source: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/native.winoffice.txt
-    type: adblock
-
-  - name: Hagezi // Apple Trackers
-    source: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/native.apple.txt
+  - name: Hagezi // DNS Rebind Protection
+    source: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adguard/dns-rebind-protection.txt
     type: adblock
 
   - name: Hagezi // Amazon Trackers
-    source: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/native.amazon.txt
+    source: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/native.amazon.txt
+    type: adblock
+
+  - name: Hagezi // Apple Trackers
+    source: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/native.apple.txt
+    type: adblock
+
+  - name: Hagezi // Huawei Trackers
+    source: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/native.huawei.txt
+    type: adblock
+
+  - name: Hagezi // Microslop Windows and Office 365 Trackers
+    source: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/native.winoffice.txt
     type: adblock
 
   - name: Hagezi // Samsung Trackers
-    source: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/native.samsung.txt
+    source: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/native.samsung.txt
+    type: adblock
+
+  - name: Hagezi // TikTok Fingerprinting
+    source: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/native.tiktok.extended.txt
+    type: adblock
+
+  - name: Hagezi // LG Trackers
+    source: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/native.lgwebos.txt
+    type: adblock
+
+  - name: Hagezi // Roku Trackers
+    source: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/native.roku.txt
+    type: adblock
+
+  - name: Hagezi // Vivo Trackers
+    source: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/native.vivo.txt
+    type: adblock
+
+  - name: Hagezi // OPPO/Realme Trackers
+    source: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/native.oppo-realme.txt
+    type: adblock
+
+  - name: Hagezi // Xiaomi Trackers
+    source: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/native.xiaomi.txt
     type: adblock
 
   - name: DeveloperDan // Ads and Tracking, extended
