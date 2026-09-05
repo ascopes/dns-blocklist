@@ -53,3 +53,6 @@
 ! disable adblocking. This allows that component through
 ! to avoid the website kicking you out.
 @@||html-load.com^$important
+
+; Hotlinking, breaks my emails if I don't allow it.
+@@||sendgrid.net
