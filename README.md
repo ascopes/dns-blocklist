@@ -4,11 +4,11 @@
 # DNS blocklists
 
 A pipeline to compile and deduplicate any DNS blocklists I use with
-AdGuard Home. This helps me avoid choking my Raspberry Pi 3B by trying
+AdGuard Home. This helps me avoid choking my Raspberry Pi 5 by trying
 to compile and deduplicate these rules locally, given the tight memory
 constraints that I have to work with.
 
-Should also be compatible with Pihole.
+Should also be compatible with PiHole.
 
 ## Why GitHub Actions?
 
@@ -24,7 +24,7 @@ and the output of this pipeline is not covered by the license in this repository
 
 I exclude some domains to keep stuff that I or other people use working properly. This includes
 Smart TVs and some commonly used websites that are flagged as false positives. Those
-are listed in the various `exclusions-*.txt` files.
+are listed in the `exclusions.txt` file.
 
 ## Schedule
 
