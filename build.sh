@@ -33,4 +33,4 @@ curl -sSLo out/entry-count-badge.svg \
 
 # Make a badge holding the build date.
 curl -sSLo out/last-built-at-badge.svg \
-    "https://img.shields.io/badge/$(sed 's/-/--/g' <<< "${build_date}")-orange?label=Last%20Built%29At"
+    "https://img.shields.io/badge/${build_date//-/--}/e-orange?label=Last%20Built%20At"
