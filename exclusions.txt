@@ -37,6 +37,9 @@
 ! to avoid the website kicking you out.
 @@||html-load.com^$important
 
+! Either ads or a false positive... needed for the app to work on Samsung TVs
+@@||justwatch.com
+
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 !!!
