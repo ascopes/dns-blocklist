@@ -3,6 +3,8 @@ set -o errexit
 set -o nounset
 [[ -v DEBUG ]] && set -o xtrace
 
+build_date=$(date --iso-8601=minutes)
+
 echo "Ensuring tooling is installed..."
 command -v hostlist-compiler &> /dev/null || npm install -g @adguard/hostlist-compiler
 
@@ -26,7 +28,9 @@ echo "Generating badges..."
 
 # Count the non comment lines, comma-separate thousands to make it easier to read.
 entry_count=$(grep -cvE '^( *)([#!;].*)?$' out/blocklist.txt | sed -E ':a;s/([0-9])([0-9]{3})($|[^0-9])/\1,\2\3/;ta')
-curl -sSLo out/entry-count-badge.svg "https://img.shields.io/badge/${entry_count}-blue?label=Compressed%20Entries"
+curl -sSLo out/entry-count-badge.svg \
+    "https://img.shields.io/badge/${entry_count}-blue?label=Compressed%20Entries"
 
-build_date=$(date | sed 's/-/--/g')
-curl -sSLo out/last-built-at-badge.svg "https://img.shields.io/badge/${build_date}-orange?label=Last%20Built%29At"
+# Make a badge holding the build date.
+curl -sSLo out/last-built-at-badge.svg \
+    "https://img.shields.io/badge/$(sed 's/-/--/g' <<< "${build_date}")-orange?label=Last%20Built%29At"
