@@ -24,5 +24,8 @@ cmd=(hostlist-compiler --config=config.json --output=out/blocklist.txt)
 
 # Count the records and make a badge
 echo "Generating badges..."
-entry_count=$(grep -cvE '^( *)([#!].*)?$' out/blocklist.txt)
+entry_count=$(grep -cvE '^( *)([#!;].*)?$' out/blocklist.txt)
 curl -sSLo out/entry-count-badge.svg "https://img.shields.io/badge/${entry_count}-blue?label=Compressed%20Entries"
+
+build_date=$(date | sed 's/-/--/g')
+curl -sSLo out/last-built-at-badge.svg "https://img.shields.io/badge/${build_date}-orange?label=Last%20Built%29At"

@@ -1,5 +1,6 @@
 ![Status](https://github.com/ascopes/dns-blocklist/actions/workflows/build.yml/badge.svg)
 ![Entry Count](https://ascopes.github.io/dns-blocklist/entry-count-badge.svg)
+![Last Built At](https://ascopes.github.io/dns-blocklist/last-built-at-badge.svg)
 
 # DNS blocklists
 
