@@ -4,8 +4,8 @@ on:
   push:
     branches: [main]
   schedule:
-    # Run every 24 hours at 43 minutes past midnight.
-    - cron: "43 0 * * *"
+    # Run every 12 hours.
+    - cron: "43 0/12 * * *"
   workflow_dispatch: {}
 
 jobs:
