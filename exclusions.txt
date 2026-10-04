@@ -1,9 +1,8 @@
-!!!
-!!! Exclusion rules
-!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-! Needed for support systems/chatbots/virtual IT helpdesks
-@@||liveperson.net^$important
+!!!
+!!! Exclusions for ad services needed to allow various services to work.
+!!!
 
 ! UK Channel 4 needs to unblock ads to work on Smart TVs.
 @@||c4smarttv.2cnt.net^$important
@@ -21,26 +20,10 @@
 ! Samsung Ads, seems to impact Smart TVs working properly during setup.
 @@||tvx.adgrx.com^$important
 
-! Opera VPN
-@@||api2.sec-tunnel.com^$important
-
 ! UKTV Play
 @@||tag.aticdn.net^$important
 @@||tags.tiqcdn.com^$important
 @@||metrics.brightcove.com^$important
-
-! Don't block various bank domains, it can cause
-! apps and emails to misbehave in unexpected ways.
-@@||natwest.com^$important
-@@||rbs.co.uk^$important
-@@||rbos.co.uk^$important
-@@||barclays.com^$important
-@@||hsbc.com^$important
-@@||hsbc.co.uk^$important
-@@||lloydsbank.com^$important
-@@||tsb.co.uk^$important
-@@||santander.com^$important
-@@||nationwide.co.uk^$important
 
 ! Don't block core stuff for Amazon Prime video
 @@||api.eu-west-1.aiv-delivery.net^$important
@@ -54,8 +37,50 @@
 ! to avoid the website kicking you out.
 @@||html-load.com^$important
 
-; Hotlinking, breaks my emails if I don't allow it.
-@@||sendgrid.net
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-; Allow access to Tailscale services.
-@@||tailscale.com
+!!!
+!!! Exclusions for various networking services.
+!!!
+
+! Opera VPN
+@@||api2.sec-tunnel.com^$important
+! Private VPN services for home networking
+@@||tailscale.com^$important
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+!!!
+!!! Exclusions needed for email hotlinks to work.
+!!!
+
+! Hotlinking, breaks my emails if I don't allow it.
+@@||sendgrid.net^$important
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+!!!
+!!! Exclusions needed to keep banking apps, emails, and online banking operational.
+!!!
+
+@@||natwest.com^$important
+@@||rbs.co.uk^$important
+@@||rbos.co.uk^$important
+@@||barclays.com^$important
+@@||hsbc.com^$important
+@@||hsbc.co.uk^$important
+@@||lloydsbank.com^$important
+@@||tsb.co.uk^$important
+@@||santander.com^$important
+@@||nationwide.co.uk^$important
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+!!!
+!!! Exclusions for various corporate IT support platforms.
+!!!
+
+! Needed for support systems/chatbots/virtual IT helpdesks
+@@||liveperson.net^$important
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
